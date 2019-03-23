@@ -1796,3 +1796,59 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 46ms (Views: 42.0ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/articles" for 172.18.0.1 at 2019-03-23 08:42:50 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (8.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (3.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:15
+  Rendered articles/index.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 440ms (Views: 415.7ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/articles/new" for 172.18.0.1 at 2019-03-23 08:42:54 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (23.6ms)
+  Rendered articles/new.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 57ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 172.18.0.1 at 2019-03-23 08:43:01 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lN01mRH+pqv1QKKTRyhTsOhAahcjBZtqR1KTkZ2o+fVbys6H57WjQ713fbP4+TW2ajq6SM186uHVDMEsZvSzkA==", "article"=>{"title"=>"teste", "text"=>"teste"}, "commit"=>"Create Article"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:21
+  [1m[36mArticle Create (2.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "teste"], ["text", "teste"], ["created_at", "2019-03-23 08:43:01.445800"], ["updated_at", "2019-03-23 08:43:01.445800"]]
+  ↳ app/controllers/articles_controller.rb:21
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:21
+Redirected to http://localhost:3000/articles/7
+Completed 302 Found in 11ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/articles/7" for 172.18.0.1 at 2019-03-23 08:43:01 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:7
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 44ms (Views: 38.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 172.18.0.1 at 2019-03-23 08:43:03 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:15
+  Rendered articles/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 56ms (Views: 51.7ms | ActiveRecord: 0.9ms)
+
+
