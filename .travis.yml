@@ -7,9 +7,6 @@ services:
 
 
 before_install:
- /docker-compose-`uname -s`-`uname -m` > docker-compose
-  - chmod +x docker-compose
-  - sudo mv docker-compose /usr/local/bin
   - sudo apt-get update
   - docker-compose build
   - docker-compose -f docker-compose.commands.yml run --rm website rails db:create db:migrate db:test:prepare
