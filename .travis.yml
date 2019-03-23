@@ -8,8 +8,8 @@ services:
 
 before_install:
   - sudo apt-get update
+  - apt-get update -qq && apt-get install -y nodejs postgresql-client
   - docker-compose build
-  - docker-compose -f docker-compose.commands.yml run --rm website rails db:create db:migrate db:test:prepare
 
 script:
- - docker-compose -f docker-compose.commands.yml run
+ - docker-compose -f docker-compose.yml run
