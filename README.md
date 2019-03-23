@@ -1,5 +1,9 @@
 # Rails and Bootstrap Simple CRUD  
 Hi, In this project we have a simple crud of articles, using containner **docker, rails, bootstrap and postgreSQL.**
+![alt text](https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/112012/rails.png?itok=UeYwdITD)
+![alt text](https://www.mundodocker.com.br/wp-content/uploads/2015/06/docker_facebook_share.png)
+![alt text](http://micreiros.com/wp-content/uploads/bootstrap-logo.png)
+![alt text](https://d1.awsstatic.com/rdsImages/postgresql_logo.6de4615badd99412268bc6aa8fc958a0f403dd41.png)
 ## Requirements
 Install Docker and Docker Compose
 [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/) 
@@ -51,8 +55,3 @@ localhost:3000/articles
 ## I need Help
 The tutorial is on in this link.
 [https://docs.docker.com/compose/rails/](https://docs.docker.com/compose/rails/)
-
-![alt text](https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/112012/rails.png?itok=UeYwdITD)
-![alt text](https://www.mundodocker.com.br/wp-content/uploads/2015/06/docker_facebook_share.png)
-![alt text](http://micreiros.com/wp-content/uploads/bootstrap-logo.png)
-![alt text](https://d1.awsstatic.com/rdsImages/postgresql_logo.6de4615badd99412268bc6aa8fc958a0f403dd41.png)
