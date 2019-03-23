@@ -1,0 +1,28 @@
+<div class="container">
+<h1>Listing Articles</h1>
+<%= link_to 'New article', new_article_path, :class => "btn btn-success" %>
+<table class="table">
+  <thead>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+    <th>Details |
+    Edit |
+    Remove</th>
+  </tr>
+</thead>
+<tbody>
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= article.title %></td>
+      <td><%= article.text %></td>
+      <td><%= link_to 'Show', article_path(article), :class => "btn btn-info" %>
+      <%= link_to 'Edit', edit_article_path(article), :class => "btn btn-primary" %>
+      <%= link_to 'Destroy', article_path(article),
+              method: :delete,
+              data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %></td>
+    </tr>
+  <% end %>
+</tbody>
+</table>
+</div>
