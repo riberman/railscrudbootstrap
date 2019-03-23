@@ -1,5 +1,6 @@
 # Rails and Bootstrap Simple CRUD  
 Hi, In this project we have a simple crud of articles, using containner **docker, rails, bootstrap and postgreSQL.**
+[![Build Status](https://travis-ci.org/riberman/railscrudbootstrap.svg?branch=master)](https://travis-ci.org/riberman/railscrudbootstrap)
 ![alt text](https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/112012/rails.png?itok=UeYwdITD)
 ![alt text](https://www.mundodocker.com.br/wp-content/uploads/2015/06/docker_facebook_share.png)
 ![alt text](http://micreiros.com/wp-content/uploads/bootstrap-logo.png)
