@@ -5,9 +5,11 @@ Hi, In this project we have a simple crud of articles, using containner **docker
 ![alt text](https://www.mundodocker.com.br/wp-content/uploads/2015/06/docker_facebook_share.png)
 ![alt text](http://micreiros.com/wp-content/uploads/bootstrap-logo.png)
 ![alt text](https://d1.awsstatic.com/rdsImages/postgresql_logo.6de4615badd99412268bc6aa8fc958a0f403dd41.png)
-## Requirements
+## Requirements and Link Tutorial
 Install Docker and Docker Compose
 [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/) 
+How to make this project from scratch
+[Link to project tutorial](https://guides.rubyonrails.org/getting_started.html)
 ## Config Container
 Generate your container
 ````
