@@ -1,9 +1,7 @@
 # Rails and Bootstrap Simple CRUD
-# [![Build Status](https://travis-ci.org/riberman/railscrudbootstrap.svg?branch=master)](https://travis-ci.org/riberman/railscrudbootstrap)[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/contributors/)[![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)[![Package Control total downloads](https://img.shields.io/packagecontrol/dt/SwitchDictionary.svg)](https://packagecontrol.io/packages/SwitchDictionary)[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-<br />
+# [![Build Status](https://travis-ci.org/riberman/railscrudbootstrap.svg?branch=master)](https://travis-ci.org/riberman/railscrudbootstrap)[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/contributors/)[![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)[![Package Control total downloads](https://img.shields.io/packagecontrol/dt/SwitchDictionary.svg)](https://packagecontrol.io/packages/SwitchDictionary)[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)<br />
 Hi, In this project we have a simple crud of articles, using containner **docker, rails, bootstrap and postgreSQL.**
-[HEROKU_Link](https://pacific-citadel-82967.herokuapp.com/articles)
-<br />
+[HEROKU_Link](https://pacific-citadel-82967.herokuapp.com/articles)<br />
 ![alt text](https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/112012/rails.png?itok=UeYwdITD)
 ![alt text](https://www.mundodocker.com.br/wp-content/uploads/2015/06/docker_facebook_share.png)
 ![alt text](http://micreiros.com/wp-content/uploads/bootstrap-logo.png)
